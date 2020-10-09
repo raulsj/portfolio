@@ -6722,6 +6722,13 @@ a.close.disabled {
     background-image: linear-gradient(#83cff3, #ebf8e1);
 }
 
+@media (max-width: 992px) {
+    .bg-primary {
+        background-image: none;
+        background-color: #83cff3;
+    }
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,

@@ -6728,6 +6728,13 @@ a.close.disabled {
     }
 }
 
+@media (max-width: 992px) {
+    .bg-primary {
+        background-image: none;
+        background-color: #83cff3;
+    }
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,

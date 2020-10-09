@@ -6721,6 +6721,12 @@ a.close.disabled {
     box-shadow: 5px 0 9px #c7c7c7;
     background-image: linear-gradient(#83cff3, #ebf8e1);
 }
+@media (max-width: 992px) {
+    .bg-primary {
+        background-image: none;
+        background-color: #83cff3;
+    }
+}
 
 a.bg-primary:hover,
 a.bg-primary:focus,
